@@ -4,6 +4,7 @@ import ErrorComponent from '../Components/ErrorComponent';
 import PerformanceChart from '../Components/PerformanceChat';
 import ChartSkeleton from '../Components/ChartSkeleton';
 import { fetchCruxData } from '@/lib/fetchPerformanceData';
+import Link from 'next/link';
 
 async function ChartsContainer({ url }) {
   try {
@@ -43,7 +44,16 @@ export default function ResultsPage({ searchParams }) {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Performance Results</h1>
+      <div className="flex justify-between items-start mb-6">
+        <h1 className="text-3xl font-bold">Performance Results</h1>
+        <Link 
+          href="/search"
+          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"
+        >
+          New Search
+        </Link>
+      </div>
+      
       <p className="mb-8 text-gray-600">Showing results for: {url}</p>
       
       <Suspense fallback={
