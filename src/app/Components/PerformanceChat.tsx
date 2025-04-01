@@ -19,7 +19,7 @@ export default function PerformanceChart({ metric, data }) {
 
   const chartOptions = {
     chart: {
-      type: 'bar',
+      type: 'bar' as const,
       toolbar: { show: false }
     },
     plotOptions: {
