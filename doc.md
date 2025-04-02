@@ -7,5 +7,3 @@
 ✔ Would you like to use Turbopack for `next dev`? … No / Yes
 ✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes
 
-
-API Key = AIzaSyDBV0wGsG99h4ULUeIbROE1nf_y2DhLxkY
