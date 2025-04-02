@@ -36,7 +36,7 @@ The results page uses **Next.js 15**'s streaming capabilities to show a loading 
 
 Check out the source code or contribute to the project:
 
-[View on GitHub](https://github.com/yourusername/your-repo)
+[View on GitHub](https://github.com/balaji-kamalesan-au3/bright-edge-assesment.git)
 
 ### Run the App Locally
 
